@@ -1,4 +1,14 @@
-playwright==1.42.0
-playwright-stealth==2.0.2
-requests==2.31.0
-loguru==0.7.2
+# ── Core Async Runtime ──────────────────────────────────────────
+aiohttp>=3.9.0
+
+# ── Browser Automation ──────────────────────────────────────────
+playwright>=1.42.0
+playwright-stealth>=1.0.6
+
+# ── Structured Logging ──────────────────────────────────────────
+loguru>=0.7.2
+
+# ── Dashboard ───────────────────────────────────────────────────
+streamlit>=1.32.0
+pandas>=2.2.0
+plotly>=5.18.0
